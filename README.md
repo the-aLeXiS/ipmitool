@@ -1,9 +1,9 @@
 # ipmitool
-本项目是ipmitool windows可以执行文件和相应的动态库。
+This project contains the ipmitool executable for Windows and the corresponding dynamic libraries. 
 
-* 代码版本：commit-4d4f29f
-* 连接串口：
-    * 配置串口输出
+* Code version: commit-4d4f29f
+* Serial connection:
+   * Configure serial output
     ```
     # Ubuntu 20.04
     # /etc/default/grub
