@@ -12,3 +12,4 @@ This project contains the ipmitool executable for Windows and the corresponding 
     GRUB_SERIAL_COMMAND="serial --speed=115200"
     ```
     * ipmitool -H [IP] -U [USER] -P [PASSWD] -I lanplus sol activate
+    * ipmitool -I lanplus -H <IP_address_BMC> -U <user> -P <password> chassis bootdev bios clear-cmos=yes
